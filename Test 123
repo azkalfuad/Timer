@@ -1,4 +1,12 @@
-//This is some code 
-print('Ini string')
+import time
 
-print('ini yang dari tablet')
+my_time = int(input("Masukkan detik: "))
+
+for x in range(my_time, 0, -1):
+    detik = x %  60
+    menit = int(x  / 60) % 60
+    jam = int(x / 3600)
+    print(f"{jam:02}:{menit:02}:{detik:02}")
+    time.sleep(1)
+
+print("Time's UP")
