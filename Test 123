@@ -1,6 +1,6 @@
 import time
 
-my_time = int(input("Ini editan baru ni oke deee: "))
+my_time = int(input("Baru aja diedit: "))
 
 for x in range(my_time, 0, -1):
     detik = x %  60
